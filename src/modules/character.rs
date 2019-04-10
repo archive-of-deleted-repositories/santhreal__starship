@@ -11,7 +11,7 @@ use clap::ArgMatches;
 /// - If the exit-code was anything else, the arrow will be formatted with
 /// `COLOR_FAILURE` (red by default)
 pub fn segment(args: &ArgMatches) -> Segment {
-    const PROMPT_CHAR: &str = "➜ ";
+    const PROMPT_CHAR: &str = "➜";
     const COLOR_SUCCESS: Color = Color::Green;
     const COLOR_FAILURE: Color = Color::Red;
 
